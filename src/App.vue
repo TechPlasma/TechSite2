@@ -1,20 +1,18 @@
 <template>
 	<div id="app">
-		<Home msg="TechPlasma"/>
+		<Nav title="TechPlasma"/>
 	</div>
 </template>
 
 <script>
 	import HelloWorld from './components/HelloWorld.vue'
-	import Home from './components/Home.vue'
-	import PersistentMini from './components/PersistentMini.vue'
+	import Nav from './components/Nav.vue'
 
 	export default {
 		name: 'app',
 		components: {
 			HelloWorld,
-			Home,
-			PersistentMini
+			Nav
 		}
 	}
 </script>
@@ -29,6 +27,5 @@
 		margin: 0px;
 		width:100%;
 		height: 100%;
-		background-color: black;
 	}
 </style>
