@@ -1,21 +1,20 @@
 <template>
-	<div id="app">
-		<Nav title="TechPlasma"/>
-	</div>
+  <div id="app">
+    <Nav title="TechPlasma"/>
+  </div>
 </template>
 
 <script>
-	import HelloWorld from './components/HelloWorld.vue'
-	import Nav from './components/Nav.vue'
+	import Nav from './Nav.vue'
 
-	export default {
+	export default{
 		name: 'app',
 		components: {
-			HelloWorld,
 			Nav
 		}
 	}
 </script>
+
 
 <style>
 	#app {

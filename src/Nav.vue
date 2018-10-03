@@ -5,53 +5,73 @@
 				<span class="md-title">{{title}}</span>
 			</md-app-toolbar>
 
-			<md-app-drawer :md-active.sync="menuVisible" md-permanent="clipped" md-persistent="mini" 
+			<md-app-drawer :md-active.sync="menuVisible" md-permanent="full" md-persistent="mini" 
 			class="semi-transparent">
 				<md-list class="transparent">
+
 					<md-list-item @click="toggleMenu" v-if="!menuVisible">
 						<md-icon>keyboard_arrow_right</md-icon>
 						<span class="md-list-item-text">Navigation</span>
 					</md-list-item>
+
 					<md-list-item @click="toggleMenu" v-if="menuVisible">
 						<md-icon>keyboard_arrow_left</md-icon>
 						<span class="md-list-item-text">Navigation</span>
 					</md-list-item>
-					<md-list-item @click="toggleMenu">
-						<md-icon>home</md-icon>
+
+					<md-list-item to="/">
+						<md-icon :class="{activeLink:$route.path == '/'}">
+							home
+						</md-icon>
 						<span class="md-list-item-text">Home</span>
+						<md-tooltip md-direction="left">Home</md-tooltip>
 					</md-list-item>
-					<md-list-item @click="toggleMenu">
-						<md-icon>face</md-icon>
+
+					<md-list-item to="/about">
+						<md-icon :class="{activeLink:$route.path == '/about'}">
+							face
+						</md-icon>
 						<span class="md-list-item-text">About Me</span>
+						<md-tooltip md-direction="left">About Me</md-tooltip>
 					</md-list-item>
-					<md-list-item @click="toggleMenu">
-						<md-icon>work</md-icon>
+
+					<md-list-item to="/work">
+						<md-icon :class="{activeLink:$route.path == '/work'}">
+							work
+						</md-icon>
 						<span class="md-list-item-text">Work</span>
+						<md-tooltip md-direction="left">Work</md-tooltip>
 					</md-list-item>
-					<md-list-item @click="toggleMenu">
-						<md-icon>description</md-icon>
+
+					<md-list-item to="/resume">
+						<md-icon :class="{activeLink:$route.path == '/resume'}">
+							description
+						</md-icon>
 						<span class="md-list-item-text">Resume</span>
+						<md-tooltip md-direction="left">Resume</md-tooltip>
 					</md-list-item>
-					<md-list-item @click="toggleMenu">
-						<md-icon>class</md-icon>
+
+					<md-list-item to="/projects">
+						<md-icon :class="{activeLink:$route.path == '/projects'}">
+							class
+						</md-icon>
 						<span class="md-list-item-text">Projects</span>
+						<md-tooltip md-direction="left">Projects</md-tooltip>
 					</md-list-item>
-					<md-list-item @click="toggleMenu">
-						<md-icon>weekend</md-icon>
-						<span class="md-list-item-text">Home</span>
+
+					<md-list-item to="/fun">
+						<md-icon :class="{activeLink:$route.path == '/fun'}">
+							weekend
+						</md-icon>
+						<span class="md-list-item-text">Fun</span>
+						<md-tooltip md-direction="left">Fun</md-tooltip>
 					</md-list-item>
 				</md-list>
 			</md-app-drawer>
 
-			<md-app-content class="transparent" style="padding:0;" align="center">
+			<md-app-content class="transparent" style="padding:0;">
 
-
-				<!-- <md-card class="transparent" md-elevation="5">
-					<img src="../assets/TPLogoInvis@16x.png" style="width:20vw;">
-				</md-card> -->
-
-				
-				
+				<router-view/>
 			</md-app-content>
 		</md-app>
 	</div>
@@ -76,6 +96,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+	.activeLink{
+		color:grey!important;
+	}
 	.md-card{
 		width:20vw;
 	}
@@ -97,7 +120,7 @@
 		max-width: 200px;
 	}
 	.md-app{
-		background-image: url('../assets/20170622_150742.jpg');
+		background-image: url('./assets/20170622_150742.jpg');
 		background-position:  50% 70%;
 		background-size: cover;
 	}

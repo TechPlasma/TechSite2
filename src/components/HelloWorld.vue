@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div id="HelloWorld" class="hello">
     <h1>{{ msg }}</h1>
     <p>
       For guide and recipes on how to configure / customize this project,<br>
