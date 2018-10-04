@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <Nav title="TechPlasma"/>
-  </div>
+	<div id="app">
+		<Nav title="TechPlasma"/>
+	</div>
 </template>
 
 <script>

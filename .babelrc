@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    ["prismjs", {
+        "languages": [
+        	"javascript", 
+        	"css", 
+        	"markup",
+        	"java",
+        	"markdown",
+        	"python",
+        	"c",
+        	"csharp",
+        	"cpp",
+        	"actionscript",
+        	"arduino"
+        ],
+        "plugins": [
+        	"line-numbers",
+        	"autolinker"
+        ],
+        "theme": "okaidia",
+        "css": true
+    }]
+  ]
+}
