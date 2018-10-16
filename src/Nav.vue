@@ -69,7 +69,7 @@
 				</md-list>
 			</md-app-drawer>
 
-			<md-app-content class="transparent" style="padding:0;">
+			<md-app-content class="" ><!-- style="padding:0px;" -->
 
 				<router-view/>
 			</md-app-content>

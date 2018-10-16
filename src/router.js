@@ -7,6 +7,7 @@ import Work from './views/Work.vue'
 import Resume from './views/Resume.vue'
 import Projects from './views/Projects.vue'
 import Fun from './views/Fun.vue'
+import NotFound from './views/NotFound.vue'
 
 Vue.use(Router)
 
@@ -43,6 +44,11 @@ export default new Router({
       path:'/fun',
       name: 'fun',
       component: Fun
+    },
+    {
+      path:'*',
+      name:'404',
+      component: NotFound
     }
   ]
 })
