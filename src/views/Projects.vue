@@ -1,30 +1,13 @@
 <template>
-	<div id="Projects" class="about md-layout md-alignment-bottom-left">
-		<div class="md-layout-item">
-			<md-field>
-				<label>Textarea</label>
-				<md-textarea v-model="mData"></md-textarea>
-			</md-field>
-		</div>
-		<div class="md-layout-item">
-			
-		</div>
-		<div class="md-layout-item">
-			<vue-markdown :source="mData"></vue-markdown>
-		</div>
-
-		
-		
+	<div id="Projects" class="about md-layout md-alignment-center-center">
+		<h1>Projects</h1>
 	</div>
 </template>
 
 <script>
 	export default{
 		name: 'Projects',
-		components: {},
-		data: ()=> ({
-			mData:"```JS\nlet i = null;\n```"
-		})
+		components: {}
 	}
 </script>
 

@@ -1,6 +1,39 @@
 <template>
-	<div id="Fun" class="about md-layout md-alignment-center-center">
-		<h1>FUN</h1>
+	<div id="Fun">
+		
+		<md-card>
+			<md-card-header>
+				<div class="md-title">A Place Where I Test Stuff</div>
+			</md-card-header>
+			<md-card-content>
+					
+			</md-card-content>
+		</md-card>
+		<div class="md-layout md-alignment-top-left">
+			<div class="md-layout-item">
+				<md-card>
+					<md-card-header>
+						<div class="md-title">Markdown Input</div>
+					</md-card-header>
+					<md-card-content>
+						<md-field>
+							<label>Textarea</label>
+							<md-textarea v-model="mData"></md-textarea>
+						</md-field>	
+					</md-card-content>
+				</md-card>
+			</div>
+			<div class="md-layout-item">
+				<md-card>
+					<md-card-header>
+						<div class="md-title">Markdown Output</div>
+					</md-card-header>
+					<md-card-content>
+						<vue-markdown :source="mData"></vue-markdown>	
+					</md-card-content>
+				</md-card>
+			</div>
+		</div>		
 	</div>
 </template>
 
@@ -9,12 +42,18 @@
 		name: 'Fun',
 		components: {
 			
-		}
+		},
+		data: ()=> ({
+			mData:"```JS\nlet i = null;\n```"
+		})
 	}
 </script>
 
 <style type="text/css" scoped>
 	#Fun{
-		height:100%;
+
+	}
+	.md-card{
+		border-radius: 10px;
 	}
 </style>

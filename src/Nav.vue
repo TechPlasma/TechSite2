@@ -35,20 +35,20 @@
 						<md-tooltip md-direction="left">About Me</md-tooltip>
 					</md-list-item>
 
-					<md-list-item to="/work">
-						<md-icon :class="{activeLink:$route.path == '/work'}">
-							work
-						</md-icon>
-						<span class="md-list-item-text">Work</span>
-						<md-tooltip md-direction="left">Work</md-tooltip>
-					</md-list-item>
-
 					<md-list-item to="/resume">
 						<md-icon :class="{activeLink:$route.path == '/resume'}">
 							description
 						</md-icon>
 						<span class="md-list-item-text">Resume</span>
 						<md-tooltip md-direction="left">Resume</md-tooltip>
+					</md-list-item>
+
+					<md-list-item to="/work">
+						<md-icon :class="{activeLink:$route.path == '/work'}">
+							work
+						</md-icon>
+						<span class="md-list-item-text">Work</span>
+						<md-tooltip md-direction="left">Work</md-tooltip>
 					</md-list-item>
 
 					<md-list-item to="/projects">
@@ -69,8 +69,7 @@
 				</md-list>
 			</md-app-drawer>
 
-			<md-app-content class="" ><!-- style="padding:0px;" -->
-
+			<md-app-content class="transparent overflow md-scrollbar" style="padding:0px;">
 				<router-view/>
 			</md-app-content>
 		</md-app>
@@ -123,5 +122,8 @@
 		background-image: url('./assets/20170622_150742.jpg');
 		background-position:  50% 70%;
 		background-size: cover;
+	}
+	.overflow{
+		overflow: auto;
 	}
 </style>
