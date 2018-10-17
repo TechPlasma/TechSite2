@@ -25,19 +25,24 @@
 									<md-tooltip md-direction="bottom">Github</md-tooltip>
 								</md-button>
 
+								<md-button class="md-icon-button" href="https://www.linkedin.com/in/techplasma/" target="_blank">
+									<md-icon class="fab fa-linkedin"></md-icon>
+									<md-tooltip md-direction="bottom">Linkedin</md-tooltip>
+								</md-button>
+
 								<md-button class="md-icon-button" @click="copyTC('Discord ID: TechPlasma#7708')">
 									<md-icon class="fab fa-discord"></md-icon>
 									<md-tooltip md-direction="bottom">Discord</md-tooltip>
 								</md-button>
 
-								<md-button class="md-icon-button" href="https://www.youtube.com/channel/UCu_sD-evTi57XFjpFL1CfYg" target="_blank">
-									<md-icon class="fab fa-youtube"></md-icon>
-									<md-tooltip md-direction="bottom">Youtube</md-tooltip>
-								</md-button>
-
 								<md-button class="md-icon-button" href="https://twitter.com/TechPlasma" target="_blank">
 									<md-icon class="fab fa-twitter"></md-icon>
 									<md-tooltip md-direction="bottom">Twitter</md-tooltip>
+								</md-button>
+
+								<md-button class="md-icon-button" href="https://steamcommunity.com/id/TechPlasma/" target="_blank">
+									<md-icon class="fab fa-steam"></md-icon>
+									<md-tooltip md-direction="bottom">Steam</md-tooltip>
 								</md-button>	
 
 								<md-button class="md-icon-button" href="https://www.instagram.com/tech_plasma/" target="_blank">
@@ -45,19 +50,19 @@
 									<md-tooltip md-direction="bottom">Instagram</md-tooltip>
 								</md-button>
 
-								<md-button class="md-icon-button" href="https://steamcommunity.com/id/TechPlasma/" target="_blank">
-									<md-icon class="fab fa-steam"></md-icon>
-									<md-tooltip md-direction="bottom">Steam</md-tooltip>
-								</md-button>
-
-								<md-button class="md-icon-button" @click="copyTC('Slack ID: TechPlasma')">
-									<md-icon class="fab fa-slack"></md-icon>
-									<md-tooltip md-direction="bottom">Slack</md-tooltip>
+								<md-button class="md-icon-button" href="https://www.youtube.com/channel/UCu_sD-evTi57XFjpFL1CfYg" target="_blank">
+									<md-icon class="fab fa-youtube"></md-icon>
+									<md-tooltip md-direction="bottom">Youtube</md-tooltip>
 								</md-button>
 
 								<md-button class="md-icon-button" href="https://techplasma.tumblr.com/" target="_blank">
 									<md-icon class="fab fa-tumblr"></md-icon>
 									<md-tooltip md-direction="bottom">Tumblr</md-tooltip>
+								</md-button>
+
+								<md-button class="md-icon-button" @click="copyTC('Slack ID: TechPlasma')">
+									<md-icon class="fab fa-slack"></md-icon>
+									<md-tooltip md-direction="bottom">Slack</md-tooltip>
 								</md-button>
 
 								<md-button class="md-icon-button" href="https://docs.google.com/document/d/1-DvEIh7YXVAJi6xwy5qTCJPIi9gV3xS6rtIeXthc5yY/export?format=pdf">

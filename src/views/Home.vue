@@ -4,8 +4,12 @@
 			<HelloWorld msg="Welcome to Your Vue.js App"/>	
 		</md-card> -->
 		<table>
+			<md-tooltip md-direction="above">About Me</md-tooltip>
 			<tr>
-				<img src="../assets/TPLogoInvis@16x.png">
+				<router-link to="/about">
+					<img src="../assets/TPLogoInvis@16x.png">
+
+				</router-link>
 			</tr>
 			<tr>
 				<h1>TechPlasma</h1>
@@ -14,7 +18,7 @@
 
 		<div class="floatingLU">
 			Last Update:<br>
-			2018-10-16
+			2018-10-17
 		</div>
 		
 		
