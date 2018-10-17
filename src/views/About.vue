@@ -1,6 +1,6 @@
 <template>
-	<div id="About" class="md-layout md-alignment-center-center">
-		<div>
+	<div id="About">
+		<div class="md-layout md-alignment-center-center">
 			<md-card>
 				<md-card-media-cover>
 					<md-card-media md-ratio="16:9" >
