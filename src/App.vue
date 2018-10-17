@@ -29,4 +29,8 @@
 		/*width:100%;
 		height: 100%;*/
 	}
+	.md-card{
+		margin:10px;
+		padding:0px;
+	}
 </style>

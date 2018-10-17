@@ -16,4 +16,8 @@
 		height:100%;
 		width:100%;
 	}
+	h1{
+		color:grey;
+		text-shadow: 1px 1px 10px #fff, 1px 1px 10px #fff;
+	}
 </style>

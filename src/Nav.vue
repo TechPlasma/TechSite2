@@ -1,11 +1,8 @@
 <template>
 	<div id="Nav">
-		<md-app style="min-height: 100vh;" class="page-container md-layout-column">
-			<md-app-toolbar class="semi-transparent md-dense tbspace" md-elevation="2">
-				<span class="md-title">{{title}}</span>
-			</md-app-toolbar>
+		<md-app class="page-container md-layout-column">
 
-			<md-app-drawer :md-active.sync="menuVisible" md-permanent="full" md-persistent="mini" 
+			<md-app-drawer :md-active.sync="menuVisible" md-permanent="clipped" md-persistent="mini" 
 			class="semi-transparent">
 				<md-list class="transparent">
 
@@ -67,10 +64,20 @@
 						<md-tooltip md-direction="left">Fun</md-tooltip>
 					</md-list-item>
 				</md-list>
+
+			
 			</md-app-drawer>
 
-			<md-app-content class="transparent overflow md-scrollbar" style="padding:0px;">
-				<router-view/>
+			<!-- <md-app-toolbar class="semi-transparent md-dense tbspace" md-elevation="2">
+				<span class="md-title">{{title}}</span>
+			</md-app-toolbar>	 -->
+
+			<md-app-content class="transparent flexy" style="padding:0px;">
+
+				
+				<div class="md-scrollbar">
+					<router-view></router-view>
+				</div>
 			</md-app-content>
 		</md-app>
 	</div>
@@ -122,8 +129,21 @@
 		background-image: url('./assets/20170622_150742.jpg');
 		background-position:  50% 70%;
 		background-size: cover;
+		height:100vh;
+		width:100vw;
 	}
-	.overflow{
-		overflow: auto;
+
+	.flexy{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.flexy > div{
+		flex: 1;
+	}
+	.fill-scroll{
+		overflow:auto;
+		height:100%;
+		/*border-radius: 50%;*/
 	}
 </style>

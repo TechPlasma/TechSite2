@@ -1,0 +1,30 @@
+# Website Items
+## Home
+## About Me
+- Name
+- Interests
+- Hobbies
+- Education
+- [Other Sites](#other-sites)
+- Resume Link
+## Resume
+- View and Download Resume
+## Work
+- Work History
+  - Project Examples
+## Projects
+- VueJS code
+- 
+## Fun
+- This is just where I test new things before putting it on the website
+- Test Instant Markdown Conversion
+
+### Other Sites
+- Github
+- Discord
+- Youtube
+- Twitter
+- Instagram
+- Steam
+- slack
+- tumblr

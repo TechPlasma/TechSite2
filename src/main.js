@@ -29,6 +29,7 @@ const VuePrism = {
 	}
 }
 
+
 Vue.use(VuePrism)
 
 Vue.use(VueMaterial)

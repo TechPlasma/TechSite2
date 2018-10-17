@@ -44,14 +44,13 @@
 			
 		},
 		data: ()=> ({
-			mData:"```JS\nlet i = null;\n```"
+			mData:"```JS\nlet i = null;\n```\n$E=mc^2$"
 		})
 	}
 </script>
 
 <style type="text/css" scoped>
 	#Fun{
-
 	}
 	.md-card{
 		border-radius: 10px;

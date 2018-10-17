@@ -3,8 +3,20 @@
 			<img alt="Vue logo" src="../assets/logo.png">
 			<HelloWorld msg="Welcome to Your Vue.js App"/>	
 		</md-card> -->
+		<table>
+			<tr>
+				<img src="../assets/TPLogoInvis@16x.png">
+			</tr>
+			<tr>
+				<h1>TechPlasma</h1>
+			</tr>
+		</table>
 
-		<img src="@/assets/TPLogoInvis@16x.png">
+		<div class="floatingLU">
+			Last Update:<br>
+			2018-10-16
+		</div>
+		
 		
 	</div>
 </template>
@@ -18,17 +30,23 @@
 	}
 </script>
 
-<style type="text/css">
+<style type="text/css" scoped>
 	#Home{
-		height:100%;
+		height:100%;s
 		margin:0px;
-		padding:0px;
-	}
-	.md-card{
-		margin:10px;
 		padding:0px;
 	}
 	img{
 		width:300px;
+	}
+	h1{
+		color:grey;
+		text-shadow: 1px 1px 10px #fff, 1px 1px 10px #fff;
+	}
+	.floatingLU{
+		position: fixed;
+		right: 0;
+		top:0;
+		margin: 10px 
 	}
 </style>
