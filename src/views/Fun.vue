@@ -6,7 +6,7 @@
 				<div class="md-title">A Place Where I Test Stuff</div>
 			</md-card-header>
 			<md-card-content>
-					
+					<md-button @click="testService.logTestString()">Test Service String</md-button>
 			</md-card-content>
 		</md-card>
 		<div class="md-layout md-alignment-top-left">
@@ -23,10 +23,10 @@
 					</md-card-content>
 				</md-card>
 			</div>
-			<div class="md-layout-item">
+			<div class="md-layout-item justifyLeft">
 				<md-card>
 					<md-card-header>
-						<div class="md-title">Markdown Output</div>
+						<div class="md-title"><center>Markdown Output</center></div>
 					</md-card-header>
 					<md-card-content>
 						<vue-markdown :source="mData"></vue-markdown>	
@@ -54,5 +54,8 @@
 	}
 	.md-card{
 		border-radius: 10px;
+	}
+	.justifyLeft{
+		text-align: left;
 	}
 </style>

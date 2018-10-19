@@ -12,7 +12,7 @@ import Prism from 'prismjs'
 import "prismjs/plugins/line-numbers/prism-line-numbers";
 
 // Global Component Registration
-	import HelloWorld from './components/HelloWorld.vue'
+	import HelloWorld from './views/HelloWorld.vue'
 	Vue.component('HelloWorld',HelloWorld)
 
 Vue.component('vue-markdown', VueMarkdown);
@@ -35,8 +35,23 @@ Vue.use(VuePrism)
 Vue.use(VueMaterial)
 Vue.config.productionTip = false
 
+
+
+import TestService from './services/TestService.js'
+const services = {
+	install (Vue){
+		Vue.mixin({
+			created: function(){
+				this.testService = new TestService();
+			}
+		})
+	}
+}
+Vue.use(services)
+
 new Vue({
 	router,
+	mixins:[services],
 	render: h => h(App)
 }).$mount('#app')
 
