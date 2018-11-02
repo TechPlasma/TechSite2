@@ -18,7 +18,7 @@
 
 		<div class="floatingLU">
 			Last Update:<br>
-			2018-10-17
+			2018-11-1
 		</div>
 		
 		

@@ -79,15 +79,41 @@
 						</md-card-actions>
 
 						<md-card-expand-content>
-							<md-content>
+							<md-content align="left">
+								<center><h1> Saul Adrian Torres </h1></center>
 								<vue-markdown>
-# Saul Adrian Torres
-### Context
-I was born in San Antonio and have lived here for most of my life. When I was three my family moved for 2 years to Chicago where we had family. I attended kindergarten there but we moved back before I began 1st grade. The background for my website is possibly my favorite photo I have ever taken. Looking towards downtown Chicago from the Shedd Aquarium. Up through my entire education my family always managed to try and make a trip out of state at least once every two years with many trips to visit my cousins in El Paso. This lead to me having a love for visiting different cities and especially for the city I've spent the most time in other than San Antonio. Chicago itself.
+## /whoami
+I was born in San Antonio and have lived here for most of my life. When I was three my family moved for 2 years to Chicago where we had family. I attended kindergarten there but we moved back before I began 1st grade. The background for my website is possibly my favorite photo I have ever taken, looking towards downtown Chicago from the Shedd Aquarium. Up through my entire education my family always managed to try and make a trip out of state at least once every two years with many trips to visit my cousins in El Paso. This lead to me having a love for visiting different cities and especially for the city I've spent the most time in other than San Antonio. Chicago itself.
 
-### My Hobbies
-Most of my free time is spent watching TV shows, Let's Plays or Reading Books. I tend to stick mostly to the Sci-Fi/ Fantasy genres though I'm finding myself increasingly interested in Documentaries about engineering feats. When I'm not doing that I'm actively exploring my interests in all manners of programming. Mostly JavaScript since that's fairly easy to get into. But I've spent just as much time exploring Flash, 3DS Max, drawing and writing. I'm not particularly good at the arts but I find that in one manner or another being familiar with the tools that artist use can often glean a perspective you wouldn't normally get when writing programs without the domain knowledge.
+## My Hobbies/Interests
+Most of my free time is spent watching TV shows, Let's Plays or Reading Books. I tend to stick mostly to the Sci-Fi/ Fantasy genres. When I'm not doing that I'm actively exploring my interests in all manners of programming. Mostly JavaScript since that's fairly easy to get into. But I've spent just as much time exploring Flash, 3DS Max, drawing and writing. I'm not particularly good at the arts but I find that in one manner or another being familiar with the tools that artist use, you can often glean a perspective you wouldn't normally get when writing programs without the domain knowledge.
 
+## Education
+I went to Benjamin Franklin Elementary where I was first introduced to the internet on a iMac G3 via Netscape Navigator. As part of the student news I worked as the schools first Weatherman, utilizing an interactive whiteboard to draw on the maps much like I saw on tv as a kid. I then went to Jeremiah Rhodes Middle school where I joined the TechClub which I can attribute to much of my first forays into practical experience. The school's technology courses helped me learn tools and software that I still use regularly today. Macromedia before even Adobe. Upon entering High School I went to Northside's Health Careers High School. While it was a fair departure from technology, both the atmosphere and the medical classes I took there have been both informative and comforting. An entire school of nerds. It was great. 
+After High School I spent my first two years of College at San Antonio College where I took most of my core classes. I had my first two Jobs as a Work-Study there and again felt like an extension of my experiences in High School. Relatively small, focused classes where you can talk to the teacher directly about any issues or questions you may be having. This was something that was lost a bit when I transferred to UTSA where I'm currently taking classes to get my Bachelors Degree in Computer Science with a concentration in Software Engineering. 
+
+## Extra
+### Favorite Quote
+> "I invented nothing new. I simply assembled the discoveries of other men behind whom where centuries of work. Had I worked fifty or ten or even five years before, I would have failed. So it is with every new thing. Progress happens when the factors that make for it are ready, and then it is inevitable. To teach that a comparatively few men are responsible for the greatest forward steps of mankind is the worst sort of nonsense."
+> -- Henry Ford
+
+### Favorite Books
+**Series**
+- Stormlight Archive by Brandon Sanderson
+- Mistborn Series by Brandon Sanderson
+- Leviathan Series by Scott Westerfield
+- Halo Series by Multiple Authors
+- The Magicians Series by Lev Grossman
+- Hitchhikers Guide to the Galaxy Sextet by Douglas Addams and Eoin Colfer
+- Artemis Fowl Series by Eoin Colfer
+- Insignia Series by S.J. Kincaid
+- Two Pearls of Wisdom Duality by Allison Goodman
+
+**Books**
+- The Martian by Andy Weir
+- Elantris by Brandon Sanderson
+- Warbreaker by Brandon Sanderson
+- Amped by Daniel H. Wilson
 
 								</vue-markdown>
 							</md-content>
